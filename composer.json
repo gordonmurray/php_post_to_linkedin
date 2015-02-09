@@ -1,0 +1,31 @@
+{
+  "name": "murrion/php_post_to_linkedin",
+  "description": "A small PHP application to automatically post content to Linkedin, including titles, descriptions, hash tags and images.",
+  "minimum-stability": "stable",
+  "keywords": [
+    "Silex",
+    "Linkedin",
+    "Browsershot",
+    "Aylien"
+  ],
+  "authors": [
+    {
+      "name": "Gordon Murray",
+      "email": "projects@murrion.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "guzzlehttp/guzzle": "~5.0",
+    "aylien/textapi": "0.1.*",
+    "spatie/browsershot": "dev-master",
+    "silex/silex": "v1.2.3",
+    "happyr/linkedin-api-client": "0.3.0",
+    "symfony/yaml": "2.0.7"
+  },
+  "autoload": {
+    "psr-0": {
+      "Murrion\\": "src/"
+    }
+  }
+}
