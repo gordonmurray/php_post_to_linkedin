@@ -18,7 +18,7 @@
     "php": ">=5.4",
     "guzzlehttp/guzzle": "~5.0",
     "aylien/textapi": "0.1.*",
-    "spatie/browsershot": "dev-master",
+    "spatie/browsershot": "1.1.0",
     "silex/silex": "v1.2.3",
     "happyr/linkedin-api-client": "0.3.0",
     "symfony/yaml": "2.0.7"
